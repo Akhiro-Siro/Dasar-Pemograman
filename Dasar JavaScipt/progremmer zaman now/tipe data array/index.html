@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array</title>
+</head>
+
+<body>
+    <script>
+        let arrayKosong = [];
+        let nama = ["muhammad", "saputra"]; //setiap data di batasi dengan koma, index atau urutan data di mulai dari 0
+        //jika kita menambahkan data maka data akan berada di akhir
+        const nameArray = [];
+        nameArray.push("putra"); //push untuk menambah data ke array
+        nameArray.push("akhiro", "siro");
+
+        console.table(nameArray); //menulis di console
+
+        //operasi di array
+        nameArray.push("data baru"); //menambah data baru
+        nameArray[0] = "putra di ganti"; //untuk mengubah data di dalam array
+        console.table(nameArray);
+        console.log(nameArray.length); //untuk melihat panjang
+        delete nameArray[1];
+        console.log(nameArray[
+            1
+        ]); //mengapus data di array atau lebih tepatnya mengganti data menjadi undifen atau tidak di temukan, jika kita menambah data baru maka akan terbuat data baru diindex yang baru juga
+        //array di dalam array, tidak ada batasan array di js
+        nameArray.push(["putra 2", "putra3"]);
+        console.table(nameArray);
+    </script>
+</body>
+
+</html>

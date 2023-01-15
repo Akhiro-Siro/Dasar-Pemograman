@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>perbandingan</title>
+</head>
+
+<body>
+    <script>
+        let result = 5 == "5"; //tidak peduli tipe datanya
+        document.writeln("<p>" + result + "</p>");
+        result = 5 === "5"; //perbandingan yang harus sama tipe datanya
+        document.writeln("<p>" + result + "</p>");
+        result = 5 > 10;
+        document.writeln("<p>" + result + "</p>");
+        result = 5 > 5; // tidak bisa membandingkan angka yang sama
+        document.writeln("<p>" + result + "</p>");
+        result = 5 < 10;
+        document.writeln("<p>" + result + "</p>");
+        result = 5 >= "2";
+        document.writeln("<p>" + result + "</p>");
+        result = 5 >= 5; //bisa membandingkan jika angkanya sama
+        document.writeln("<p>" + result + "</p>");
+        result = 5 != 5; // ! tidak sama dengan
+        document.writeln("<p>" + result + "</p>");
+    </script>
+</body>
+
+</html>

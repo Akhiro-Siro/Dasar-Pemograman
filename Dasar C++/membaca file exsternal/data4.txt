@@ -1,0 +1,7 @@
+halo absen dulu
+baris ke 2
+
+data
+1.siro
+2.putra
+3.ambo

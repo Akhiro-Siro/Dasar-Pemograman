@@ -1,0 +1,14 @@
+C:\Historis belajar Koding\belajar C#\operator aritmatika\operator aritmatika\obj\Debug\netcoreapp3.1\operator aritmatika.csproj.AssemblyReference.cache
+C:\Historis belajar Koding\belajar C#\operator aritmatika\operator aritmatika\obj\Debug\netcoreapp3.1\operator aritmatika.GeneratedMSBuildEditorConfig.editorconfig
+C:\Historis belajar Koding\belajar C#\operator aritmatika\operator aritmatika\obj\Debug\netcoreapp3.1\operator aritmatika.AssemblyInfoInputs.cache
+C:\Historis belajar Koding\belajar C#\operator aritmatika\operator aritmatika\obj\Debug\netcoreapp3.1\operator aritmatika.AssemblyInfo.cs
+C:\Historis belajar Koding\belajar C#\operator aritmatika\operator aritmatika\obj\Debug\netcoreapp3.1\operator aritmatika.csproj.CoreCompileInputs.cache
+C:\Historis belajar Koding\belajar C#\operator aritmatika\operator aritmatika\bin\Debug\netcoreapp3.1\operator aritmatika.exe
+C:\Historis belajar Koding\belajar C#\operator aritmatika\operator aritmatika\bin\Debug\netcoreapp3.1\operator aritmatika.deps.json
+C:\Historis belajar Koding\belajar C#\operator aritmatika\operator aritmatika\bin\Debug\netcoreapp3.1\operator aritmatika.runtimeconfig.json
+C:\Historis belajar Koding\belajar C#\operator aritmatika\operator aritmatika\bin\Debug\netcoreapp3.1\operator aritmatika.runtimeconfig.dev.json
+C:\Historis belajar Koding\belajar C#\operator aritmatika\operator aritmatika\bin\Debug\netcoreapp3.1\operator aritmatika.dll
+C:\Historis belajar Koding\belajar C#\operator aritmatika\operator aritmatika\bin\Debug\netcoreapp3.1\operator aritmatika.pdb
+C:\Historis belajar Koding\belajar C#\operator aritmatika\operator aritmatika\obj\Debug\netcoreapp3.1\operator aritmatika.dll
+C:\Historis belajar Koding\belajar C#\operator aritmatika\operator aritmatika\obj\Debug\netcoreapp3.1\operator aritmatika.pdb
+C:\Historis belajar Koding\belajar C#\operator aritmatika\operator aritmatika\obj\Debug\netcoreapp3.1\operator aritmatika.genruntimeconfig.cache

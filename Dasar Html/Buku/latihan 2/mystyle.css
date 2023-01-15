@@ -1,0 +1,36 @@
+@charset "utf-8";
+body {
+    background-color: #ecf0f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: #34495e;
+    font-weight: bold;
+    letter-spacing: .4em;
+    margin-bottom: lem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.dttable {
+    border-spacing: 0;
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+
+.dttable th {
+    padding: 5px 5px;
+    color: #ecf0f1;
+    background-color: #34495e;
+    letter-spacing: .lem;
+    text-transform: uppercase;
+}
+
+.dttable th:first-child{
+    border-left: 1px solid #34495e;
+}
+
+.dttable th:last-child{
+    border-right: 1px solid #34495e;
+}

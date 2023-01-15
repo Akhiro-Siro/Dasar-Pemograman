@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipe Data Javasceipt</title>
+    <script type="text/javascript" language="javascript">
+        function MaxValue() {
+            var val = Number.MAX_VALUE;
+            document.write("Nilai maksimal MAX_Value : " + val);
+        }
+
+        function MinValue() {
+            var val = Number.MIN_VALUE;
+            document.write("Nilai Minimal MIN_VALUE : " + val)
+        }
+
+        function NanValue() {
+            const dayofmonth = 50;
+            if (dayofmonth < 1 || dayofmonth > 31) {
+                dayofmonth = Number.NaN;
+                alert("nilai hari dalam 1 bulan harus antara 1 dan 31.")
+                Document.write("nilai hari dalam 1 bulan :" + dayofmonth);
+            };
+        }
+
+        var num = 77.1234;
+
+        function Nexpoinential() {
+            document.write("expondensial : " + num.toExponential() + "<br>");
+            document.write("expondensial 2 " + num.toExponential(2));
+        };
+
+        function Nfixed() {
+            document.write("Fixed : " + num.toFixed() + "<br>");
+            document.write("Fixed 2 " + num.toFixed(2));
+        };
+
+        function nlocalestring() {
+            document.write("locale string : " + num.toLocaleString());
+        };
+
+        function nprecision() {
+            document.write("precision : " + num.toPrecision() + "<br>");
+            document.write("precision 2 " + num.toPrecision(2));
+        };
+
+        function nstring() {
+            var numb = new Number(15);
+            document.write("string : " + numb.toString() + "<br>");
+            document.write("string 2 " + numb.toString(2));
+        };
+
+        function nvalueof() {
+            document.write("Value of : " + num.valueOf());
+        };
+    </script>
+
+</head>
+
+<body>
+    <h2 style="text-transform: capitalize;">number</h2>
+    <input type="button" onclick=" MaxValue ()" value="Nilai Maksimal">
+    <input type="button" value="Nilai Minimal" onclick="MinValue ()">
+    <input type="button" value="Nilai NaN" onclick="Nanvalue()" /><br>
+    <h2 style="text-transform: capitalize;">manipulasi number di java scrip</h2>
+    <input type="button" value="expondensial" onclick=" Nexpoinential()">
+    <input type="button" value="nfixed" onclick="Nfixed()">
+    <input type="button" value="nlocalestring" onclick="nlocalestring()">
+    <input type="button" value="nprecision" onclick="nprecision()">
+    <input type="button" value="nstring" onclick="nstring()">
+    <input type="button" value="nvalueof" onclick="nvalueof()"><br><br>
+    <h2 style="text-transform: capitalize;">Tipe data Bolean True atau false</h2>
+    <h2 style="text-transform: capitalize;">tipe data string, dalam java tipe data ini adalah object yang mempunyai
+        kumpulan krakter. mathod yang dapat di gunakan dalam tipe ini</h2>
+    
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+/* A.Tag selector, menggunakan tag html pada pendeklarasian dari sebuah style sheet */
+/* CONTOH */
+h1 {
+    color: #36cfff;
+}
+
+/* B.Universal selector, dengan menggunakan ini semua elemnt html html akan mengikuti aturan css yang dideklarasikan */
+/* CONTOH */
+* {color: #36cfff;
+
+}
+
+/* C.Descendant selector, di gunakan untuk menerapkan css ke dalam element yang berada di elemnt lain */
+/* CONTOH */
+ul em {
+    color: #36cfff;
+}
+
+/* D.Class selector, menentukan elemnt css berdasarkan class yang di miliki tag html dan tidak akan
+di terapan ke elemnt html lainya */
+/* CONTOH */
+.hitam {
+    color: #000000;
+}
+
+h1.hitam {
+    color: #000000;
+}
+/* pada contoh pertama bisa di gunakan semua tag html yang memeiliki class hitam
+sedangkan pada contoh kedua hanya bisa di gunakan untuk tag html h1 yang memiliki class hitam */
+
+
+/* E.id selector, sama seperti selector class hanya ada sedikit perbedaan di mana elemnt html
+yang di beri id tidak akan bisa di gunakan oleh elemnt html yang sama */
+/* CONTOH */
+#hitam {
+    color: #000000;
+}
+
+h1#hitam {
+    color: #000000;
+}
+
+#hitam h2 {
+    color: #000000;
+}
+
+/* pada contoh pertama memebuat class id yang dapat di gunakan pada semua tag html
+dengan memberi class di atribt id, pada contoh kedua dan ketiga kita hayanya mendeklarasikan sebuah class hanya
+untuk tag html h1 dan tidak bisa di gunakan pada tag html lainya */
+
+
+/* E.Child selector, hampir sama dengan Descendant selecto, tetapi ada perbedaan yang dapat kita
+lihat di contoh di bawah */
+/* CONTOH */
+body > p {
+    color: #000000;
+}
+
+/* pada contoh di atas semua paragraf akan berwarna hitam jika pragraf itu berada di body
+pragraf lain yang berada di tag div atau td tidak akan memiliki efek yang sama */
+
+
+/* G.gruping selector, kita dapaat menerapkan aturan css ke semua tag atau class html yang
+kita inginkan */
+/* CONTOH */
+h1, h2, h3, {
+    color: #36c;
+    font-weight: normal;
+    letter-spacing: .4em;
+    margin-bottom: lem;
+    text-transfrom: lowercase;
+}
+
+#content, #footer, #supplement {
+    position: absolute;
+    left: 510px;
+    width: 200px;
+}
+
+/* dari contoh di atas dapa kita tentukan bahwa tag h1 h2 h3 memiliki elemnt css yang sama dan
+menghasilakn style yang sama, begitu pula dengan class content footer suplement akan memiliki style
+yang sama juga */

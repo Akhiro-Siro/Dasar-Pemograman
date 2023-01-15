@@ -1,0 +1,23 @@
+/* ada 3 aturam dalam css
+1.slector, menentukan di mana css akan di terapkan
+2.property, adalah jenis atribut dari tag HTML sederhannya, semua atribut HTML di ubah menjadi css,
+  bisa menjadi warna, ukuran, dan lainya
+3.Value, memberian nilai untuk sebuah property
+
+
+BENTUK DASAR PENULISAN CSS
+selector {
+    property: value
+}
+
+
+CONTOH:
+tabel {
+    border :1px solid #c00;
+}
+
+dari contoh di atas dapat di ketahui bahwa tag tabel adalah selector dan tag border adalah
+sebuah property dan 1px solid adalah value setiap selector di css bisa memiliki lebih dari 1 value
+
+
+*/

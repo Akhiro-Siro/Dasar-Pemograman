@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string templet</title>
+</head>
+
+<body>
+    <script>
+        //membuat stirng templet menggunakan backtik ``
+        const nama = "muhammad saputra";
+        const stringTemplet = `name : ${nama}`;
+
+        console.info(stringTemplet);
+        //di string templet juga bisa membuat expreseon
+        const nilai = 85;
+        const templet = `name : ${nama}, lulus : ${nilai > 80}`;
+        console.log(templet);
+        //string multiline
+        let multiline = `nama : muhammad saputra,
+umur : 16,
+gender : male
+        `;
+        document.writeln("<pre>");
+        document.writeln(multiline);
+        document.writeln("</pre>");
+    </script>
+
+
+
+</body>
+
+</html>

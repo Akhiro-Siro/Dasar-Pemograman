@@ -1,0 +1,14 @@
+C:\Historis belajar Koding\belajar C#\user input\user input\bin\Debug\netcoreapp3.1\user input.exe
+C:\Historis belajar Koding\belajar C#\user input\user input\bin\Debug\netcoreapp3.1\user input.deps.json
+C:\Historis belajar Koding\belajar C#\user input\user input\bin\Debug\netcoreapp3.1\user input.runtimeconfig.json
+C:\Historis belajar Koding\belajar C#\user input\user input\bin\Debug\netcoreapp3.1\user input.runtimeconfig.dev.json
+C:\Historis belajar Koding\belajar C#\user input\user input\bin\Debug\netcoreapp3.1\user input.dll
+C:\Historis belajar Koding\belajar C#\user input\user input\bin\Debug\netcoreapp3.1\user input.pdb
+C:\Historis belajar Koding\belajar C#\user input\user input\obj\Debug\netcoreapp3.1\user input.csproj.AssemblyReference.cache
+C:\Historis belajar Koding\belajar C#\user input\user input\obj\Debug\netcoreapp3.1\user input.GeneratedMSBuildEditorConfig.editorconfig
+C:\Historis belajar Koding\belajar C#\user input\user input\obj\Debug\netcoreapp3.1\user input.AssemblyInfoInputs.cache
+C:\Historis belajar Koding\belajar C#\user input\user input\obj\Debug\netcoreapp3.1\user input.AssemblyInfo.cs
+C:\Historis belajar Koding\belajar C#\user input\user input\obj\Debug\netcoreapp3.1\user input.csproj.CoreCompileInputs.cache
+C:\Historis belajar Koding\belajar C#\user input\user input\obj\Debug\netcoreapp3.1\user input.dll
+C:\Historis belajar Koding\belajar C#\user input\user input\obj\Debug\netcoreapp3.1\user input.pdb
+C:\Historis belajar Koding\belajar C#\user input\user input\obj\Debug\netcoreapp3.1\user input.genruntimeconfig.cache

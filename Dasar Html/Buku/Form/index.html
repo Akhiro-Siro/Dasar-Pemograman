@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From</title>
+</head>
+
+<body>
+    <h2>A.single-line Text input</h2>
+    <p>contoh input dengan semua value</p>
+    <p>*input text</p>
+    <form>
+        nama: <input type="text" name="Nama">
+    </form>
+
+    <p>*input password</p>
+    <form>
+        password: <input type="password" name="Password">
+    </form>
+
+    <p>*input form date</p>
+    <form>
+        <input type="date" name="Tanggal" min="1997-12-31" max="2022-12-31">
+    </form>
+
+    <p>*input form number</p>
+    <form>
+        Nilai (1 sampai 5) : <input type="number" name="Nilai" min="1" max="5">
+    </form>
+
+    <p>*input form color</p>
+    <form>
+        Warna Favorit : <input type="color" name="Warna">
+    </form>
+
+    <p>*input form range</p>
+    <form>
+        point : <input type="range" name="Point" min="1" max="5">
+    </form>
+
+    <p>*input form month/bulan</p>
+    <form>
+        Bulan : <input type="month" name="Bulan">
+    </form>
+
+    <p>*input form week/minggu</p>
+    <form>
+        minggu dalam setahun : <input type="week" name="MInggu">
+    </form>
+
+    <p>*input form time/jam</p>
+    <form>
+        pilih jam : <input type="time" name="Jam">
+    </form>
+
+    <p>*input form datetime/tanggal dan jam</p>
+    <form>
+        tanggal dan jam : <input type="datetime" name="tanggaljam">
+    </form>
+
+    <p>*input form datetime-local</p>
+    <form>
+        tanggal dan jam : <input type="datetime-local" name="tanggaljam">
+    </form>
+
+    <p>*input form email</p>
+    <form>
+        Email : <input type="email" name="Email">
+    </form>
+
+    <p>*input form search</p>
+    <form>
+        cari data : <input type="search" name="CariData">
+    </form>
+
+    <p>*input form tel</p>
+    <form>
+        NO. Telpon : <input type="tel" name="NoTelepon">
+    </form>
+
+    <p>*input form URL</p>
+    <form>
+        Alamat Website : <input type="url" name="AlamatWab">
+    </form>
+
+    <p>*input form Hidden</p>
+    <form>
+        nama : <input type="hidden" name="Nama">
+    </form>
+
+
+    <h2>B.text area</h2>
+    <p>contoh inputan text area</p>
+    <form>
+        <textarea name="Alamat" cols="50" rows="10" id="komen"></textarea>
+        <label for="komen">Alamat</label>
+    </form>
+
+
+
+    <h2>C.cheek box</h2>
+    <p>contoh form cheek box</p>
+    <form>
+        Hobi :<br>
+        <input type="checkbox" name="makan" value="makan" checked>Makan <br>
+        <input type="checkbox" name="Turu" value="Turu">TURU <br>
+        <input type="checkbox" name="Mandi" value="Mandi">Mandi <br>
+        <input type="checkbox" name="Turu" value="Turu" checked><a href="">setuju dengan sarat dan ketentuan</a> <br>
+    </form>
+
+
+
+    <h2>D.radio button</h2>
+    <p>contoh input radio button</p>
+    <form>
+        jenis kelamin : <br>
+        <input type="radio" name="jk" value="laki-laki" checked>laki-laki <br>
+        <input type="radio" name="jk" value="perempuan">perempuan <br>
+    </form>
+
+
+
+    <h2>E.select Box</h2>
+    <p>contoh input select box</p>
+    <p>menggunakan multiple</p>
+    <form>
+        jenis mobil : <br>
+        <select name="mobil" multiple>
+            <option value="volvo" selected>Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">fiat</option>
+            <option value="audi">audi</option>
+        </select>
+    </form>
+    <p>tidak menggunakn multiple</p>
+    <form>
+        jenis mobil : <br>
+        <select name="mobil">
+            <option value="volvo" selected>Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">fiat</option>
+            <option value="audi">audi</option>
+        </select>
+    </form>
+
+
+
+    <h2>F.file select</h2>
+    <p>contoh file select</p>
+    <form>
+        Pilih Gambar : <input type="file" name="Gambar" accept="jpg">
+        <!-- accept berfungsi untuk menentuka tipe file yang diterima server -->
+    </form>
+
+
+
+    <h2>G.Button</h2>
+    <p>contoh form button ada 3 type tombol yaitu : submit, reset, button</p>
+    <form>
+        <input type="submit" value="kirim data" name="TombolKirim"><br><br>
+        <input type="reset" value="Batal" name="tombolriset"><br><br>
+        <input type="button" value="Tombol" name="tombol"><br><br>
+        <button type="button" onclick="alert (`hallo word!`)">Clik me!</button>
+    </form>
+
+
+    <p>contoh HTML form</p>
+    <form action="proses.html" method="get">
+        Nama: <input type="text" name="nama"><br><br>
+        Alamat <textarea name="alamat" cols="25" rows="3"></textarea><br>
+        Kota:
+        <select name="kota">
+            <option value="batu" selected>Batu</option>
+            <option value="sampit">Sampit</option>
+            <option value="malang">malang</option>
+            <option value="surabaya">Surabaya</option>
+            <option value="kediri">Kediri</option>
+            <option value="laimmya">Lainnya</option>
+        </select><br><br>
+        Tanggal lahir: <input type="date" name="tanggallahir"><br>
+        jenis kelamin: <br>
+        <input type="radio" name="jk" value="LAKI-LAKI" checked>LAKI-LAKI <br>
+        <input type="radio" name="jk" value="Women">Women☕ <br>
+        Hobi: <br>
+        <input type="checkbox" name="koding" value="Koding" checked>Koding <br>
+        <input type="checkbox" name="bersepeda" value="bersepeda">Bersepeda <br>
+        <input type="checkbox" name="mendaki" value="mendaki">mendaki <br>
+        <input type="checkbox" name="berenang" value="berenang">Berenang <br><br>
+        Angka Kesukaan: <input type="number" name="angka" min="0" max="99"> <br><br>
+        Warna Kesukaan <input type="color" name="warna"> <br><br>
+        Username: <input type="text" name="Username"> <br><br>
+        Password: <input type="password" name="Password"> <br><br>
+        Email: <input type="email" name="email"> <br><br>
+        Foto: <input type="file" name="Foto"> <br><br>
+        <input type="submit" value="Kirim">
+        <input type="reset" value="Batal">
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tipe data objek</title>
+</head>
+
+<body>
+    <script>
+        //membuat objek
+        const objek = {};
+        //menambah atau mengubah
+        objek["nama"] = "siro";
+        objek["alamat"] = "indonesia";
+        objek["umur"] = 16;
+        console.table(objek);
+        //menghapus data di objek
+        delete objek["alamat"];
+        console.table(objek);
+
+        //membuat object dengan propertis
+        const dev = {
+            nama: "muhammad saputra",
+            alamatt: "indonesia",
+            umur: "16"
+        };
+        console.table(dev);
+
+        //mengakses objeck
+        console.info(`umur = ${dev.umur}`);
+        console.log(`alamat : ${objek.alamat}`)
+        //atau bisa menggunkan ini, di sarankan menggunkan yang di atas
+        console.log(`nama : ${dev["nama"]}`);
+    </script>
+</body>
+
+</html>

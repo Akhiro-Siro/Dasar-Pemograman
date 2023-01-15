@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyperlink</title>
+    <style>
+        h2 {
+            color: aqua;
+            text-align: center;
+            text-transform: capitalize;
+            text-size-adjust: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2>membuat link</h2>
+    <p>ada beberapa atribut untuk melengkapi tag a </p>
+    <p>
+        yang pertama <br>
+        href, berfungsi untuk mendefinisikan alamat tujuan <br>
+        yang kedua <br>
+        target, menentukan tab di buka di mana baru atau di tab yang sama ada 5 value yaitu; _blank _self _top
+        _parent,targetframe nanti akan di jelskan fusngsinya
+        <br>
+        yang ketiga <br>
+        title, untuk memberi judul
+    </p>
+
+
+    <p>contoh hyperlink dokumen</p>
+    <p> saya belajar HTML, dari <a href="http://www.w3schools.com" title="w3school">W3School</a></p>
+
+    <p>contoh link ke bagian tertentu</p>
+    <h3>menuju halaman lain <a name="#tops"></a></h3>
+    <a href="linkbagiantertentu.html#tops" title="menuju atas">ke atas</a>
+
+    <p>contoh link download</p>
+    <!-- jangan lupa tuliskan extencen filenya -->
+    <p>unduh <a href="laporanakhirtahun.pdf" title="laporan akhir tahun">Laporan</a> disini</p>
+
+    <p>contoh link menggunakan gambar</p>
+    <p>saya belajar HTML dari <a href="http://www.w3schools.com" title="W#schools"><img
+                src="data:image/png;base64,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"
+                alt=""></a></p>
+
+    <p>contoh membuat link mengirim email</p>
+    <p>keritik dan saran silahkan kirim ke <a href="mailto:putrasaputraputra021@gmail.com" title="email">Helpdesk</a>
+    </p>
+
+    <p>contoh penggunaan value pada hyperlink</p>
+
+    <h3>value blank</h3>
+    <a href="http://www.google.com" target="_blank">contoh membuka googel dengan value blank</a>
+    <p>akan membuka tab baru</p>
+
+    <h3>value self</h3>
+    <a href="http://www.google.com" target="_self">contoh membuka googel dengan value self</a>
+    <p>akan membuka tab di tempat yang sama (ini defaul value target link)</p>
+
+    <h3>value top</h3>
+    <a href="http://www.google.com" target="_top">contoh membuka googel dengan value top</a>
+    <p>sama seperti self</p>
+
+    <h3>value parent</h3>
+    <a href="http://www.google.com" target="_parent">contoh membuka googel dengan value parent</a>
+    <p>sama seperti self dan top</p>
+
+    <h3>value targetframe</h3>
+    <a href="http://www.google.com" target="targetframe">contoh membuka googel dengan value blank</a>
+    <p>sama seperti blank</p>
+
+</body>
+
+</html>

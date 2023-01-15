@@ -1,0 +1,53 @@
+p {
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+p.bg-color {
+    background-color: yellow;
+}
+
+table.bg-image {
+    background-image: url(download.png);
+}
+
+table.bg-repeat1 {
+    background-image: url(download.png);
+    background-repeat: repeat;
+}
+
+table.bg-repeat2 {
+    background-image: url(download.png);
+    background-repeat: repeat-y;
+}
+
+table.bg-repeat3 {
+    background-image: url(download.png);
+    background-repeat: repeat-x;
+}
+
+table.bg-posisi1 {
+    background-image: url(download.png);
+    background-position:100px;
+}
+
+table.bg-posisi2 {
+    background-image: url(download.png);
+    background-position:100px 200px;
+}
+
+p.bg-attachment1 {
+    background-image: url(download.png);
+    background-attachment: fixed;
+}
+
+p.bg-attachment2 {
+    background-image: url(download.png);
+    background-attachment: scroll;
+}
+
+p.background {
+    background: url(download.png) repeat fixed;
+}

@@ -1,0 +1,15 @@
+.link1:link{
+    color: black;
+}
+
+.link2:visited {
+    color: #006600;
+}
+
+.l3:hover {
+    color: #ffcc00;
+}
+
+.l4:active {
+    #ffccff
+}

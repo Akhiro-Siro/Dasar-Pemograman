@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charsntuk mendekripsikan wab-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentasi belajar html</title> <!-- judul halaman-->
+    <style></style> <!-- menulis css secara internal-->
+    <link rel="stylesheet" href=""> <!-- untuk menghubungkan css yang di tuliskan secara external-->
+
+<!-- 
+<meta> (untuk membuat metadata tentang dokumen HTML)
+<base> (menentukan URL dasar / target untuk semua URl reltif dalam dokumen)
+-->
+
+
+</head>
+<body>
+<!-- html adalah hypertext markup lenguage ( bukan termasuk bahasa pemorgraman ) dan html di ciptakan oleh -tim berners lee- -->
+
+
+
+
+<!-- tag yang ada di html -->
+
+<!-- gruping -->
+    <div></div>  <!-- biasanya di gunakan untuk membungkus conten, biasa di sebut container-->
+    <span></span> <!-- untuk membuat bagian dalam dokumen (tag baru html 5)-->
+    <header></header> <!-- tag untuk membuat header untuk dokumen (tag baru html 5)-->
+    <footer></footer> <!-- untuk membuat footer (tag baru html 5)-->
+    <hgroup></hgroup> <!-- pengelompokan elemen heading (h1 samapi h6 (tag baru html 5))-->
+    <section></section> <!-- untuk membuat bagian dalam dokumen-->
+    <article></article> <!-- untuk membuat sebuah artikel (tag baru html 5)-->
+    <aside></aside> <!-- untuk membuat konten lain selain dari halaman (tag baru html 5)-->
+    <details></details> <!-- untuk membuat rincian tambahan yang pengguna dapat lihat atau sembunyikan (tag baru html 5)-->
+
+
+<!-- list (bullets & numbering) -->
+    <ul></ul> <!-- untuk membuat daftar tampilan menggunakan simbol-->
+    <ol></ol> <!-- membuat daftar menggunakan nomor, huruf romawi, dan lainnya -->
+    <li></li> <!-- menentukan berbagai item yang ingin ditampilkan-->
+    <dl></dl> <!-- mendefinisikan daftar deskripsi-->
+    <dt></dt> <!-- mendefinisikan istilah deskripsi-->
+    <dd></dd> <!-- menggambarkan istilah dalam daftar deskripsi-->
+    <menu></menu> <!-- tag untuk membuat deskripsi dari item dalam daftar definisi-->
+    <command> <!-- untuk membuat sebuah tombol perintah bahwa seorang pengguna dapat meminta (tag baru html 5)-->
+    
+    
+<!-- texs -->
+    <h1></h1>   <!--untuk membuat tulisan berbagai ukuran dan terdapat 6 anggak yang paling besar adalah h1-->
+    <h2></h2>
+    <h3></h3>
+    <h4></h4>
+    <h5></h5>
+    <h6></h6>
+    <p></p>     <!-- untuk membuat paragraf-->
+
+
+
+<!-- pendukung teks -->
+    <br>                <!--untuk menambahkan baris baru -->
+    <hr>                <!--untuk menambahkan garis horizontal-->
+    <em></em>           <!--untuk memberikan penekanan/membuat tulisan bercetak miring-->
+    <strong></strong>   <!--untuk membuat teks menjadi tebal-->
+    <b></b> <!-- untuk membuat tulisan tebal-->
+    <i></i> <!-- untuk membuat tulisan berbentuk italic/miring-->
+    <u></u> <!-- untuk membuat tulisan bergaris bawah-->
+    <mark></mark> <!-- membuat teks miring-->
+    <small></small> <!-- membuat teks kecil-->
+    <del></del> <!-- teks di hapus-->
+    <ins></ins> <!-- teks yang di masukan-->
+    <sub></sub> <!-- teks subscript-->
+    <sup></sup> <!-- teks superscript-->
+    <s></s> <!-- untuk mencoret teks-->
+    
+
+
+<!-- gambar -->
+    <img src="" alt=""> <!--untuk menampilkan gambar -->
+    <map name=""></map> <!-- gambar peta-->
+    <area shape="" coords="" href="" alt=""> <!-- mendefinisikan area atau daerah gambar pada peta-->
+    <picture></picture> <!-- menampilkan gambar yang berbeda untuk perangkat yang berbeda-->
+    <canvas></canvas> <!-- di gunakan untuk menggambar grafik melalui scripting (javaScript) (tag baru html 5)-->
+    <figure></figure> <!-- menentukan konten mandiri (tag baru html 5)-->
+    <figcaption></figcaption> <!-- untuk membuat sebuah caption untuk elemen <figure> (tag baru html 5)-->
+
+
+<!-- hayperlink -->
+    <a href=""></a> <!-- untuk membuat link-->
+    <link> <!-- untuk membuat hubungan antara dokumen dan sumber daya eksternal (paling sering digunakan untuk link ke style sheet atau ke css)-->
+    <nav></nav> <!-- untuk membuat navigasi link (tag baru html 5)-->
+
+
+<!-- tabel -->
+    <table></table> <!-- membuat tabel pada wab-->
+    <tr></tr> <!-- membuat baris pada tabel-->
+    <td></td> <!-- membuat kolom pada tabel-->
+    <th></th> <!-- membuat judul pada kolom-->
+    <caption></caption> <!-- membuat judul tabel-->
+    <thead></thead> <!-- mngelompokan isi header dalam sebuah tabel-->
+    <tbody></tbody> <!-- mengelompokan body dalam sebuah tabel-->
+    <tfoot></tfoot> <!-- mengelompokan isi footer dalam sebuah tabel-->
+    <colgroup></colgroup> <!-- menentukan kelompok dari satu atau lebih kolom dalam sebuah tabel untuk di format-->
+    <col> <!-- menentukan properti kolom untuk setiap kolom dalam elemen <colgroup> -->
+
+
+<!-- form -->
+    <form action=""></form>  <!-- membuat formulir untuk mengumpulkan input pengguna-->
+    <select name="" id=""></select> <!-- membuat input dengan pilihan yang berbentuk list drop down/kebawah-->
+    <button></button> <!-- membuat tombol-->
+    <textarea name="" id="" cols="30" rows="10"></textarea> <!-- element untuk mendefinisikan field input-->
+    <label for=""></label> <!-- memberikan label pada elemen input-->
+    <fieldset></fieldset> <!-- mengelompokan elemen yang terdapat pada sebuah form-->
+    <optgroup></optgroup> <!-- mengelompokan beberapa pilihan pada daftar pilihan input-->
+    <option value=""></option> <!-- mendefinisikan opsi yang bisa di pilih-->
+    <datalist></datalist> <!-- membuat daftar pilihan untuk input data (tag baru html 5)-->
+    <output></output> <!-- menampilkan hasil dari hitungans-->
+    <keygen> <!-- tag untuk membuat key-pair generator kolom input (tag baru html 5)-->
+
+
+
+<!-- tipe input (fungsinya untuk membuat tipe inputan pada form yang akan di buat)-->
+    <input type="text">
+    <input type="button" value="">
+    <input type="checkbox" name="" id="">
+    <input type="color" name="" id="">
+    <input type="date" name="" id="">
+    <input type="datetime" name="" id="">
+    <input type="email" name="" id="">
+    <input type="file" name="" id="">
+    <input type="image" src="" alt="">
+    <input type="number" name="" id="">
+    <input type="password" name="" id="">
+    <input type="search" name="" id="">
+    <input type="submit" value="">
+    <input type="url" name="" id="">
+
+
+<!-- script -->
+    <script></script> <!-- menghubungkan java script ke html-->
+    <noscript></noscript> <!-- untuk membuat sebuah konten alternatif bagi pengguna yang tidak mendukung script di sisi pengguna-->
+    <embed src="" type=""> <!-- untuk membuat sebuah wadah untuk aplikasi eksternal (non html ) (tag baru html 5)-->
+
+
+<!-- object -->
+    <object data="" type=""></object> <!-- untuk membuat sebuah objek yang di tanam-->
+    <param name="" value=""> <!-- untuk membuat sebuah parameter untuk objek-->
+
+
+<!-- formating -->
+    <abbr title=""></abbr> <!-- untuk membuat singkatan -->
+    <address></address> <!-- untuk membuat kontak alamat-->
+    <bdi></bdi> <!-- mengisolasi bagian dari teks (tag baru html 5)-->
+    <bdo dir=""></bdo> <!-- mengganti arah teks-->
+    <blockquote></blockquote> <!-- untuk membuat sebuah bagian teks yang dikutip dari sumber lain-->
+    <cite></cite> <!-- untuk membuat judul karya-->
+    <code></code> <!-- untuk membuat potongan kode komputer di antara teks-->
+    <del></del> <!-- untuk membuat teks yang telah di hapus dari dokumen-->
+    <dfn></dfn> <!-- membuat sebuah istilah definisi-->
+    <ins></ins> <!-- untuk membuat teks yang telah di masukan ke dalam dokumen-->
+    <kbd></kbd> <!-- untuk membuat input keyboard-->
+    <pre></pre> <!-- untuk membuat teks terformat-->
+
+
+<!-- audio/ video -->
+    <audio src=""></audio> <!-- untuk membuat isi suara (tag baru html 5)-->
+    <source> <!-- untuk membuat sumber beberapa media untuk elemen <video> dan <audio> (tag baru html 5)-->
+    <track> <!-- untuk membuat trek teks untuk elemen media  <video> dan <audio> (tag baru html 5) -->
+    <video src=""></video> <!-- untuk menampilkan video (tag baru html 5)-->
+
+
+
+<!-- antibut yang ada di html -->
+<!-- atribut global ( atribut global adalah atribut yang bisa di tambahkan pada semua elemen HTML)-->
+<!--  
+    accesskey (untuk menentukan elemt ini bisa di akses menggunakan keyboard/sortcart)
+    class  (untuk mengasih tanda/memberi class pada tag html)
+    id     (untuk mengasih tanda/memberi id untuk tag html)
+    dir (menentukan arah tulisan)
+    lang (untuk menentukan bahasa)
+    style (untuk menulis css secara inlane)
+    tabindex (untuk menentukan urutan)
+    title (untuk memberi judul)
+    contenteditable (menentukan isi elemen bisa di edit atau tidak)
+    data (di gunakan untuk menyimpan data )
+    dir (menentukan arah teks dari elemen (kiri ke kanan atau sebaliknya ))
+    draggable (menentukn apakah elemen bisa di drag atau tidak)
+    hidden (untuk menyembunyikan elemen )
+    tabindex (tab dari elemen (saat tombol tab di tekan))
+    translate (elemen bisa di terjemahkan atau tidak )
+-->
+
+
+<!-- atribut event (adalah atribut yang di gunakan untuk menentukan aksi yang akan dilakukan saat terjadi sesuatu pada elemen. atribut ini nanti akan banyak di gunakan pada pemrograman javascript)-->
+<!-- 
+onafterprint
+
+
+
+-->
+
+
+<!-- atribut kusus -->
+<!-- 
+    src (atribut untuk menentukan URL gambar)
+    alt (mendefinisikan teks pada gambar, jika gambar tidak dapat di tampilkan)
+    type (menentukan jenis penomoran pada tag list)
+-->
+
+<!-- atribut tabel  (pindahin ke css !ingat )-->
+<!-- 
+    border (mengatur garis tebal)
+    border - collapse (mengatur batas garis tebal)
+    padding (mengatur padding pada cell)
+    text-align (mengatur perataan pada konten tabel)
+    border-spacing (mengatur jarak spasi garis tebal)
+    colspan (menggabungkan beberapa colom)
+    rowspan (menggabungkan beberapa baris)
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

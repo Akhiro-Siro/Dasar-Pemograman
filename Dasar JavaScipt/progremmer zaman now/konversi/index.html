@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>konversi string dan number</title>
+</head>
+
+<body>
+    <script>
+        // jika seperti ini maka number akan di aggap strig
+        const value1 = "1";
+        const value2 = 2;
+        const sum = value1 + value2;
+        document.writeln(`<p>${sum}</p>`);
+
+        //konversi string ke integer/bilangan bulat
+        const string1 = parseInt("10.21"); //sekarang ini jadi tipe integer
+        console.log(string1);
+        //konversi string ke flote/pecahan
+        const string2 = parseFloat("10.10");
+        console.log(string2);
+        //kolo mau mengkonversikan string ke integer atau string ke flote bisa gunakan
+        const string3 = Number("192.22");
+        console.log(string3);
+        //untuk mengkonversikan number ke string bisa menggunkan
+        const a = 1;
+        const b = 10;
+        const tambah = a + b;
+        document.writeln(tambah + "</br>");
+        const total = a.toString() + b.toString();
+        document.writeln(total);
+
+        //nan atau not a number
+        document.writeln(`<p>${parseInt("salah")} </p>`);
+        document.writeln(`<p>${parseFloat("1.2salah")} </p>`); //kolo kesalahnnya di belakang maka masih bisa di tolerir
+        document.writeln(
+            `<p>${Number("1.salah")} </p>`
+        ); //kolo di number tidak peduli di depan atau di belakang akan tetap di anggap NaN    
+        document.writeln(`<p>${Number("ini nomor 1223")} </p>`);
+
+        // melakukan operasi data NaN
+        const a1 = Number("salah"); // nan
+        const a2 = 100;
+        const total2 = a1 + a2;
+        document.writeln(total2);
+        //kolo datanya sudah ada yang menjadi nan makan jika di lakukan operasi hasilnya akan tetap nan
+
+        //melakukan pengecekan nan nilai yang di hasilkan akan tipe data bolean
+        document.writeln(`<p>${isNaN(a1)} </p>`); //jika nan maka akan true jika bukan nan maka false
+        document.writeln(`<p>${isNaN(a2)} </p>`);
+    </script>
+</body>
+
+</html>

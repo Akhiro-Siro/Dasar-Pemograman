@@ -1,0 +1,14 @@
+C:\Historis belajar Koding\belajar C#\belajar Sharp\belajar Sharp\bin\Debug\netcoreapp3.1\belajar Sharp.exe
+C:\Historis belajar Koding\belajar C#\belajar Sharp\belajar Sharp\bin\Debug\netcoreapp3.1\belajar Sharp.deps.json
+C:\Historis belajar Koding\belajar C#\belajar Sharp\belajar Sharp\bin\Debug\netcoreapp3.1\belajar Sharp.runtimeconfig.json
+C:\Historis belajar Koding\belajar C#\belajar Sharp\belajar Sharp\bin\Debug\netcoreapp3.1\belajar Sharp.runtimeconfig.dev.json
+C:\Historis belajar Koding\belajar C#\belajar Sharp\belajar Sharp\bin\Debug\netcoreapp3.1\belajar Sharp.dll
+C:\Historis belajar Koding\belajar C#\belajar Sharp\belajar Sharp\bin\Debug\netcoreapp3.1\belajar Sharp.pdb
+C:\Historis belajar Koding\belajar C#\belajar Sharp\belajar Sharp\obj\Debug\netcoreapp3.1\belajar Sharp.csproj.AssemblyReference.cache
+C:\Historis belajar Koding\belajar C#\belajar Sharp\belajar Sharp\obj\Debug\netcoreapp3.1\belajar Sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Historis belajar Koding\belajar C#\belajar Sharp\belajar Sharp\obj\Debug\netcoreapp3.1\belajar Sharp.AssemblyInfoInputs.cache
+C:\Historis belajar Koding\belajar C#\belajar Sharp\belajar Sharp\obj\Debug\netcoreapp3.1\belajar Sharp.AssemblyInfo.cs
+C:\Historis belajar Koding\belajar C#\belajar Sharp\belajar Sharp\obj\Debug\netcoreapp3.1\belajar Sharp.csproj.CoreCompileInputs.cache
+C:\Historis belajar Koding\belajar C#\belajar Sharp\belajar Sharp\obj\Debug\netcoreapp3.1\belajar Sharp.dll
+C:\Historis belajar Koding\belajar C#\belajar Sharp\belajar Sharp\obj\Debug\netcoreapp3.1\belajar Sharp.pdb
+C:\Historis belajar Koding\belajar C#\belajar Sharp\belajar Sharp\obj\Debug\netcoreapp3.1\belajar Sharp.genruntimeconfig.cache
